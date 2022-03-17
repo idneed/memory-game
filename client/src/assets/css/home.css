@@ -1,0 +1,73 @@
+
+
+.home-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #05F2DB;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 4rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.home-title{
+    color: #C0D904;
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    font-family: "crayon",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container h3 {
+    color: #F20505;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-family: "cake",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container input {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "cake",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #05F2DB !important;
+    border-radius: 8px;
+}
+.home-container input:focus{
+    box-shadow: none;
+    outline: none  ;
+    border: 1px solid #C0D904 !important;
+}
+
+.home-button {
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    margin: 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "cake";
+    text-decoration: none;
+    background-color: #C0D904;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.home-button:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #F20505;
+}
+
+.error {
+    color: #F20505;
+}

@@ -1,0 +1,49 @@
+.card{
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.card.back {
+    background-color: #D9A404;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: "cake",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.front{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transform: rotateY(0);
+}
+
+
+.card-img {
+    border-radius: 5px;
+}
+
+.card:hover, .card-img:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.10);
+    z-index: 100;
+}
+
+.card.flip-animation {
+    animation: flip-card 300ms ease;
+}
+
+@keyframes flip-card {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
